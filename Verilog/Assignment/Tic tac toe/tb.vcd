@@ -1,0 +1,310 @@
+$date
+	Sun Jan 14 16:30:04 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tb $end
+$var wire 2 ! pos9 [1:0] $end
+$var wire 2 " pos8 [1:0] $end
+$var wire 2 # pos7 [1:0] $end
+$var wire 2 $ pos6 [1:0] $end
+$var wire 2 % pos5 [1:0] $end
+$var wire 2 & pos4 [1:0] $end
+$var wire 2 ' pos3 [1:0] $end
+$var wire 2 ( pos2 [1:0] $end
+$var wire 2 ) pos1 [1:0] $end
+$var wire 2 * gameWinner [1:0] $end
+$var reg 1 + clk $end
+$var reg 4 , oPlayerPos [3:0] $end
+$var reg 1 - play $end
+$var reg 1 . reset $end
+$var reg 4 / xPlayerPos [3:0] $end
+$scope module uut $end
+$var wire 1 + clk $end
+$var wire 2 0 gameWinner [1:0] $end
+$var wire 4 1 oPlayerPos [3:0] $end
+$var wire 1 - play $end
+$var wire 2 2 pos1 [1:0] $end
+$var wire 2 3 pos2 [1:0] $end
+$var wire 2 4 pos3 [1:0] $end
+$var wire 2 5 pos4 [1:0] $end
+$var wire 2 6 pos5 [1:0] $end
+$var wire 2 7 pos6 [1:0] $end
+$var wire 2 8 pos7 [1:0] $end
+$var wire 2 9 pos8 [1:0] $end
+$var wire 2 : pos9 [1:0] $end
+$var wire 1 . reset $end
+$var wire 4 ; xPlayerPos [3:0] $end
+$var parameter 2 < GAME_OVER $end
+$var parameter 2 = IDLE $end
+$var parameter 2 > O_PLAYER $end
+$var parameter 2 ? X_PLAYER $end
+$var reg 2 @ currentState [1:0] $end
+$var reg 1 A illegalMoveoPlayer $end
+$var reg 1 B illegalMovexPlayer $end
+$var reg 4 C moveCount [3:0] $end
+$var reg 2 D nextState [1:0] $end
+$var reg 1 E noVacantSpace $end
+$var reg 1 F result $end
+$var reg 2 G winner [1:0] $end
+$var integer 32 H i [31:0] $end
+$var integer 32 I j [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b10 ?
+b1 >
+b0 =
+b11 <
+$end
+#0
+$dumpvars
+bx I
+bx H
+bx G
+xF
+xE
+bx D
+bx C
+xB
+xA
+bx @
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+bx 0
+bx /
+0.
+x-
+bx ,
+1+
+bx *
+bx )
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#2
+0F
+b0 *
+b0 0
+b0 G
+b0 !
+b0 :
+b0 "
+b0 9
+b0 #
+b0 8
+b0 $
+b0 7
+b0 %
+b0 6
+b0 &
+b0 5
+b0 '
+b0 4
+b0 (
+b0 3
+b0 )
+b0 2
+b1001 H
+b0 C
+b0 @
+0E
+#5
+b11 I
+b11 H
+b0 D
+0+
+#10
+1+
+1-
+#15
+b11 I
+b11 H
+b1 D
+0+
+#20
+b1 @
+0B
+1+
+b101 /
+b101 ;
+0-
+#25
+0+
+#30
+xB
+0A
+1+
+b1 ,
+b1 1
+b0 /
+b0 ;
+#35
+1A
+b11 I
+b11 H
+b1 C
+b1 )
+b1 2
+b10 D
+0+
+#40
+b10 @
+0B
+xA
+1+
+b101 /
+b101 ;
+b0 ,
+b0 1
+#45
+1B
+b11 I
+b11 H
+b10 C
+b10 %
+b10 6
+b1 D
+0+
+#50
+b1 @
+xB
+0A
+1+
+b11 ,
+b11 1
+b0 /
+b0 ;
+#55
+1A
+b11 I
+b11 H
+b11 C
+b1 '
+b1 4
+b10 D
+0+
+#60
+b10 @
+0B
+xA
+1+
+b10 /
+b10 ;
+b0 ,
+b0 1
+#65
+1B
+b11 I
+b11 H
+b100 C
+b10 (
+b10 3
+b1 D
+0+
+#70
+b1 @
+xB
+0A
+1+
+b110 ,
+b110 1
+b0 /
+b0 ;
+#75
+1A
+b11 I
+b11 H
+b101 C
+b1 $
+b1 7
+b10 D
+0+
+#80
+b10 @
+0B
+xA
+1+
+b1000 /
+b1000 ;
+b0 ,
+b0 1
+#85
+1B
+b11 I
+b11 H
+b110 C
+b10 "
+b10 9
+b1 D
+0+
+#90
+b10 *
+b10 0
+b10 G
+1F
+b1 @
+xB
+1A
+1+
+b101 ,
+b101 1
+b0 /
+b0 ;
+#94
+0A
+0F
+b0 *
+b0 0
+b0 G
+b0 "
+b0 9
+b0 $
+b0 7
+b0 %
+b0 6
+b0 '
+b0 4
+b0 (
+b0 3
+b0 )
+b0 2
+b1001 H
+b0 C
+b0 @
+#95
+b11 I
+b11 H
+b0 D
+0+
+#100
+1+
+#105
+0+
+#110
+1+
+#115
+0+
+#120
+1+

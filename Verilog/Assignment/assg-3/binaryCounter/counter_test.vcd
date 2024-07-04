@@ -1,0 +1,75 @@
+$date
+	Wed Dec 20 19:06:20 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module counter_test $end
+$var wire 4 ! b [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # rst $end
+$scope module uut $end
+$var wire 4 $ b [3:0] $end
+$var wire 1 " clk $end
+$var wire 1 # rst $end
+$var reg 4 % d [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1 %
+b1 $
+0#
+1"
+b1 !
+$end
+#10
+0"
+#20
+b10 !
+b10 $
+b10 %
+1"
+#30
+0"
+#40
+b11 !
+b11 $
+b11 %
+1"
+#50
+0"
+#60
+b100 !
+b100 $
+b100 %
+1"
+#70
+0"
+#72
+b0 !
+b0 $
+b0 %
+1#
+#80
+1"
+#82
+b1 !
+b1 $
+b1 %
+0#
+#90
+0"
+#100
+b10 !
+b10 $
+b10 %
+1"
+#102
